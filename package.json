@@ -1,0 +1,29 @@
+{
+  "name": "cypress-nicola---automation-exercise-project",
+  "version": "1.0.0",
+  "description": "Test of automationexercise.com website",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolaKasanji/Cypress-Nicola---Automation-Exercise-project.git"
+  },
+  "keywords": [
+    "automation",
+    "tests",
+    "cypress",
+    "e2e"
+  ],
+  "author": "Nicola Kasanji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolaKasanji/Cypress-Nicola---Automation-Exercise-project/issues"
+  },
+  "homepage": "https://github.com/NicolaKasanji/Cypress-Nicola---Automation-Exercise-project#readme",
+  "devDependencies": {
+    "@testing-library/cypress": "^9.0.0",
+    "cypress": "^12.3.0"
+  }
+}
