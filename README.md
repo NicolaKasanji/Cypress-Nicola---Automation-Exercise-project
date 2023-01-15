@@ -9,4 +9,4 @@ If you want to open the project, you need to follow this steps:
 
 There are two scenarios for this test:
 * In the first scenario both tests should pass.
-* In the second scenario you need to change for example one letter in 48 line of code ('a[href="/logout"]' change to 'a[href="/logou"]') and then you will get the situation when the first test will pass and the second will fail, because the User did not logged in.
+* In the second scenario if Cypress does not find the logout button, the first test should pass and the second should fail - this situation means that User is not logged in.
